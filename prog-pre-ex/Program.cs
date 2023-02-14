@@ -40,41 +40,38 @@ for (int i = 0; i < 5; i++)
             mh = a;
             nh = a;
             h--;
+            men.Insert(0, nh);
+            en.Insert(0, mh);
         }
         else
         {
-            if (f > m)
+            if (f <=m)
             {
+                men.RemoveAt(0);
                 n = f;
                 nh = a;
                 men.Insert(0,nh);
             }
             else
             {
+                en.RemoveAt(0);
                 m = f;
                 mh = a;
                 en.Insert(0, mh);
             }
         }
-
-
     }
-    /*if (i == 4) 
-    {
-        men.Add(nh);    
-    }*/
-
 }
 
 Console.WriteLine("El promedio de la edad de las mujeres es de {0}", d / cn);
 
-Console.Write("El mayor es");
+Console.Write("El menor es ");
 foreach (var i in men)
 {
     Console.WriteLine(String.Join(", ", i));
 }
 
-Console.WriteLine("El menor es ");
+Console.Write("El mayor es ");
 foreach (var i in en)
 {
     Console.WriteLine(String.Join(", ", i));

@@ -24,7 +24,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practica7", "Practica7\Prac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "practica8", "practica8\practica8.csproj", "{7A587395-F423-421A-92DB-1DF75AF70914}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog-pre-ex", "prog-pre-ex\prog-pre-ex.csproj", "{049802D7-4A0E-483D-B149-BA4BD66EC0C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "prog-pre-ex", "prog-pre-ex\prog-pre-ex.csproj", "{049802D7-4A0E-483D-B149-BA4BD66EC0C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "examen-par-1", "examen-par-1\examen-par-1.csproj", "{E0DB9236-F048-43A1-B6D2-E2014B315A1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,6 +70,10 @@ Global
 		{049802D7-4A0E-483D-B149-BA4BD66EC0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{049802D7-4A0E-483D-B149-BA4BD66EC0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{049802D7-4A0E-483D-B149-BA4BD66EC0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0DB9236-F048-43A1-B6D2-E2014B315A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DB9236-F048-43A1-B6D2-E2014B315A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0DB9236-F048-43A1-B6D2-E2014B315A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0DB9236-F048-43A1-B6D2-E2014B315A1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
