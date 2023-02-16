@@ -28,7 +28,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "prog-pre-ex", "prog-pre-ex\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "examen-par-1", "examen-par-1\examen-par-1.csproj", "{E0DB9236-F048-43A1-B6D2-E2014B315A1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "practica9", "practica9\practica9.csproj", "{F509E0AC-9BC0-4000-A80E-84E8B2784C8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "practica9", "practica9\practica9.csproj", "{F509E0AC-9BC0-4000-A80E-84E8B2784C8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "u2", "u2", "{D775F4D6-D816-4CF8-9C71-2332F7CD4531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "validaciones", "validaciones\validaciones.csproj", "{3FAEA9C1-3118-4F9F-A2A1-A6BF5647A3CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -80,9 +84,16 @@ Global
 		{F509E0AC-9BC0-4000-A80E-84E8B2784C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F509E0AC-9BC0-4000-A80E-84E8B2784C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F509E0AC-9BC0-4000-A80E-84E8B2784C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FAEA9C1-3118-4F9F-A2A1-A6BF5647A3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FAEA9C1-3118-4F9F-A2A1-A6BF5647A3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FAEA9C1-3118-4F9F-A2A1-A6BF5647A3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FAEA9C1-3118-4F9F-A2A1-A6BF5647A3CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3FAEA9C1-3118-4F9F-A2A1-A6BF5647A3CD} = {D775F4D6-D816-4CF8-9C71-2332F7CD4531}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {346CAC16-F487-4516-9862-DE6347643195}
