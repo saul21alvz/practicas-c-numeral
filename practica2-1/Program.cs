@@ -14,6 +14,7 @@ int ca=0, pre=0, sum=0, c=0,cp=0;
 bool t=false, p=false;
 
 while (bo=="s" || bo=="si") {
+    t = false;
     while (t == false) {
         Console.Write("Escribe el nombre del producto ");
         nom = Console.ReadLine();
@@ -24,12 +25,13 @@ while (bo=="s" || bo=="si") {
         if (int.TryParse(num, out pre)) {
             if (int.TryParse(nu, out ca)) {
                 t = true;
+                c++;
+                cp += ca;
             }
             else {
                 Console.WriteLine("No son numeros enteros");
                 t = false;
-                c++;
-                cp += ca;
+                
             }
         }
         else {
@@ -46,7 +48,7 @@ try
 {
     fichero = File.AppendText(nombre);//crea el archivo o lo reutiliza
     dato = "Total de Productos "+c.ToString()+" \n" +
-        "Total del precio "+sum.ToString()+"\n" +
+        "Total a pagar "+sum.ToString()+"\n" +
         "Cantidad de productos "+cp.ToString();
     Console.WriteLine(dato);
     fichero.WriteLine(dato);
