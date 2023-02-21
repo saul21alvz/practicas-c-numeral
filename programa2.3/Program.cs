@@ -10,27 +10,30 @@ namespace programa12
     {
         static void Main (string[] args)
         {
-            string n, s, e;
-            n = Nombre();
-            s = Sexo();
-            e = Edad();
-            StreamWriter fichero;
-            string nombre = "programa12.txt";
-            string dato = "";
+            for (int i = 0; i < 3; i++)
+            {
+                string n, s, e;
+                n = Nombre();
+                s = Sexo();
+                e = Edad();
+                StreamWriter fichero;
+                string nombre = "programa12.txt";
+                string dato = "";
 
-            try
-            {
-                fichero = File.AppendText(nombre);//crea el archivo o lo reutiliza
-                dato = "Nombre:  " + n.ToString() + " \n" +
-                    "Sexo: " + s.ToString() + "\n" +
-                    "Edad: " + e.ToString();
-                Console.WriteLine(dato);
-                fichero.WriteLine(dato);
-                fichero.Close();//cierra el archivo
-            }
-            catch (Exception msg) // Si no se puede leer mostramos el error
-            {
-                Console.WriteLine("No se encuentra el archivo " + msg);
+                try
+                {
+                    fichero = File.AppendText(nombre);//crea el archivo o lo reutiliza
+                    dato = "Nombre:  " + n.ToString() + " \n" +
+                        "Sexo: " + s.ToString() + "\n" +
+                        "Edad: " + e.ToString();
+                    Console.WriteLine(dato);
+                    fichero.WriteLine(dato);
+                    fichero.Close();//cierra el archivo
+                }
+                catch (Exception msg) // Si no se puede leer mostramos el error
+                {
+                    Console.WriteLine("No se encuentra el archivo " + msg);
+                }
             }
 
         }
