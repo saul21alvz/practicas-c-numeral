@@ -1,6 +1,7 @@
 ﻿/* hacer un programa que lea sexo nombre y edad de tres personas.
 el programa creara metodos para validar nombre, sexo y edad,
-una vez validados se meteran los datos en un archivo */
+una vez validados se meteran los datos en un archivo 
+hola mundo*/
 
 using System.Text;
 
