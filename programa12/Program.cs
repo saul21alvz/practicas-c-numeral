@@ -15,6 +15,7 @@ namespace programa12
             {
                 string n, s, e;
                 n = Nombre();
+                Clave(n);
                 s = Sexo();
                 e = Edad();
                 StreamWriter fichero;
@@ -38,6 +39,30 @@ namespace programa12
             }
 
         }
+        static string Clave(string nom)
+        {
+            Console.WriteLine(nom);
+            //partir cadena
+            //buscar elemento en cadena
+            string p2 = nom.Substring(0, 2);
+            string[] ca = nom.Split(' ');
+            if (ca.Length >= 3 )
+            {
+                if (ca[0] == 3)
+                {
+                    string p3 = ca[1].Substring(0, 1);
+                    string p4 = ca[2].Substring(0, 1);
+                }
+                else
+                {
+                    string p3 = ca[2].Substring(0, 1);
+                    string p4 = ca[3].Substring(0, 1);
+                    Console.WriteLine(p3);
+                    Console.WriteLine(p4);
+                }
+            }
+        }
+
         static string Sexo()    
         {
             bool b = true;
